@@ -1,0 +1,16 @@
+
+# Allow all web crawlers
+User-agent: *
+Allow: /
+
+# Prevent crawling of admin pages
+Disallow: /admin/
+Disallow: /admin-login/
+Disallow: /dashboard/
+
+# Prevent crawling of checkout and profile pages
+Disallow: /checkout/
+Disallow: /profile/
+
+# XML Sitemap location
+Sitemap: https://innerpathjourney.com/sitemap.xml
